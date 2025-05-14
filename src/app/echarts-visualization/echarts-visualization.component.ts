@@ -1,13 +1,13 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import * as echarts from 'echarts';
 import { InternDataService } from '../intern-data.service';
+import { Intern } from '../intern.model';
 
 @Component({
-  selector: 'app-interns-by-programming-language',
-  templateUrl: './interns-by-programming-language.component.html', 
-  styleUrls: ['./interns-by-programming-language.component.css'] 
+  selector: 'app-echarts-visualization',
+  template: `<div id="chart" style="height: 400px;"></div>`
 })
-export class InternsByProgrammingLanguageComponent implements OnInit, AfterViewInit {
+export class EchartsVisualizationComponent implements OnInit, AfterViewInit {
   chart: any;
 
   constructor(private internDataService: InternDataService) {}
@@ -31,7 +31,7 @@ export class InternsByProgrammingLanguageComponent implements OnInit, AfterViewI
 
     this.chart.setOption({
       title: {
-        text: '🎯 Programming Language Proficiency Among Interns'
+        text: '🎯 PROGRAMMING LANGUAGE Proficiency Among 72 Interns'
       },
       tooltip: {
         trigger: 'axis',
