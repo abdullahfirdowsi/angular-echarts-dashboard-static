@@ -1,0 +1,79 @@
+# Angular specific
+/dist
+/tmp
+/out-tsc
+/bazel-out
+.angular
+
+# Node.js
+/node_modules
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+.npm
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+.eslintcache
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+/src/environments/*.ts
+!/src/environments/environment.ts
+
+# Vercel
+.vercel/
+
+# Build artifacts
+*.js.map
+*.css.map
+
+# Compiled output
+*.js
+!karma.conf.js
+!webpack.config.js
+*.d.ts
+
+# ECharts specific
+/public/echarts/*
+!/public/echarts/README.md
+
+# Misc build files
+*.tgz
+.eslintcache
+
+# Test coverage
+/coverage
+/.nyc_output
+
+# Firebase
+.firebase/
+firebase-debug.log
+
