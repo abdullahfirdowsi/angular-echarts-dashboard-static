@@ -1,5 +1,4 @@
 # Angular specific
-/dist
 /tmp
 /out-tsc
 /bazel-out
