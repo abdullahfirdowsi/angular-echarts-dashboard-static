@@ -77,3 +77,4 @@ Thumbs.db
 .firebase/
 firebase-debug.log
 
+.vercel
